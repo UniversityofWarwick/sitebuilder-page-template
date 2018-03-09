@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-GB" class="no-js"> <!-- class="id7-non-branded" to remove Warwick branding -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="theme-color" content="#5b3069">
+
+  <title>Your page title</title>
+
+  <!-- Lato web font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&amp;subset=latin,latin-ext"
+      rel="stylesheet" type="text/css">
+
+  <!-- Standard Sitebuilder styling -->
+  <link href="https://warwick.ac.uk/static_war/render/id7/css/pack7.css" rel="stylesheet">
+
+  <!-- Site branding -->
+  <link rel="stylesheet/less" type="text/css" href="site.less">
+
+  <!-- Page-specific styling -->
+  <link rel="stylesheet/less" type="text/css" href="page.less">
+
+  <!-- Standard Sitebuilder scripts -->
+  <script type="text/javascript" src="https://warwick.ac.uk/static_war/render/scripts/id7scripts.js"></script>
+
+  <!-- Page-specific JavaScript -->
+  <script type="text/javascript" src="page.js"></script>
+
+  <!-- This allows us to use .less files instead of just plain CSS -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.0.1/less.min.js"></script>
+</head>
+<body>
+  <div class="id7-left-border"></div>
+  <div class="id7-fixed-width-container">
+    <a class="sr-only sr-only-focusable" href="#main">Skip to main content</a>
+
+    <header class="id7-page-header">
+      <div class="id7-utility-masthead">
+        <nav class="id7-utility-bar">
+          <ul>
+            <li><a href="#">Text only</a></li>
+            <li><a href="#">Notify</a></li>
+          </ul>
+        </nav>
+
+        <div class="id7-masthead">
+          <div class="id7-masthead-contents">
+            <div class="clearfix">
+              <div class="id7-logo-column">
+                <!-- Don't include the logo row on non-branded sites -->
+                <div class="id7-logo-row">
+                  <div class="id7-logo">
+                    <a href="http://warwick.ac.uk" title="Warwick homepage">
+                      <img src="id7/images/shim.gif" alt="Warwick">
+                    </a>
+                  </div>
+                  <nav class="id7-site-links">
+                    <ul>
+                      <li><a href="https://warwick.ac.uk/study">Study</a></li>
+                      <li><a href="https://warwick.ac.uk/research">Research</a></li>
+                      <li><a href="https://warwick.ac.uk/business">Business</a></li>
+                      <li><a href="https://warwick.ac.uk/alumni">Alumni</a></li>
+                      <li><a href="https://warwick.ac.uk/news">News</a></li>
+                      <li><a href="https://warwick.ac.uk/engagement">Engagement</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="id7-search-column">
+                <div class="id7-search">
+                  <form action="//search.warwick.ac.uk/website" role="search">
+                    <input type="hidden" name="source" value="http://warwick.ac.uk/"> <!-- Replace with the current page URL -->
+                    <div class="form-group">
+                      <label class="sr-only" for="id7-search-box">Search</label>
+                      <div class="id7-search-box-container">
+                        <input type="search" class="form-control input-lg" id="id7-search-box" name="q" placeholder="Search Warwick" data-suggest="go">
+                        <i class="fa fa-search fa-2x"></i>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <div class="id7-header-text clearfix">
+              <h1>
+                <!-- Parent site link often excluded -->
+                <span class="id7-parent-site-link"><a href="#">Parent site name</a></span>
+                <span class="id7-current-site-link"><a href="#">Current site name</a></span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="id7-navigation" data-fixed-header="false" data-fixed-nav="false">
+        <nav class="navbar navbar-primary" role="navigation">
+          <ul class="nav navbar-nav">
+            <li class="first protected">
+              <a href="#">Protected sub-page <i class="fa fa-lock discreet" title="Restricted permissions"></i></a>
+            </li>
+            <li class="second">
+              <a href="#">sub-page</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Page content of course! -->
+    <main class="id7-main-content-area" id="main">
+      <header class="id7-main-content-header">
+        <div class="id7-horizontal-divider">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0" y="0" version="1.1" width="1130" height="40" viewBox="0, 0, 1130, 40">
+            <path d="m 0,0.5 1030.48, 0 22.8,39.5 16.96,-31.4 16.96,31.4 22.8,-39.5 20,0" stroke="#383838" fill="none" class="divider"></path>
+          </svg>
+        </div>
+
+        <div class="id7-page-title hidden"> <!-- remove hidden class for sub-pages (i.e. not homepages) -->
+          <h1>Your page title</h1>
+        </div>
+      </header>
+
+      <div class="id7-main-content">
+        <div class="layout layout-100"> <!-- Use (e.g.) layout-75-25 if designing a page with a right hand content -->
+          <div class="column-1">
+            <div class="column-1-content">
+              <p>Your page content goes here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="id7-page-footer id7-footer-coloured">
+      <div class="id7-site-footer">
+        <!-- Any change of footer content must go via the ITS Web Team, webteam@warwick.ac.uk -->
+        <p>Your site footer content</p>
+      </div>
+      <div class="id7-app-footer">
+        <div class="id7-logo-bleed"></div>
+
+        <div class="id7-footer-utility">
+          <ul>
+            <li>Powered by <a href="https://warwick.ac.uk/sitebuilder">Sitebuilder</a></li>
+            <li><a href="https://warwick.ac.uk/copyright">© MMXVIII</a></li>
+            <li><a href="https://warwick.ac.uk/terms">Terms</a></li>
+            <li><a href="https://warwick.ac.uk/privacy">Privacy</a></li>
+            <li><a href="https://warwick.ac.uk/cookies">Cookies</a></li>
+            <li><a href="https://warwick.ac.uk/accessibility">Accessibility</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="id7-right-border"></div>
+</body>
+</html>
