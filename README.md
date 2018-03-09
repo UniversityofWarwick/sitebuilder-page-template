@@ -13,7 +13,7 @@ Once you've got Visual Studio Code running, you'll need to install the "Live Ser
 
 When you have this project open, you should see a `Go Live` button in the status bar at the bottom:
 
-[[https://github.com/ritwickdey/vscode-live-server/raw/master/images/Screenshot/vscode-live-server-statusbar-3.jpg]]
+![VSCode Screenshot showing Go Live button](https://github.com/ritwickdey/vscode-live-server/raw/master/images/Screenshot/vscode-live-server-statusbar-3.jpg)
 
 This button should open a web browser with the template in it. The page will automatically reload when you make changes to the template.
 
